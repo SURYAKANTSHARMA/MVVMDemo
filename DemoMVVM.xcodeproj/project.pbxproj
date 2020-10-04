@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		85D46EF72529BAF800462A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46EF62529BAF800462A6D /* AppDelegate.swift */; };
 		85D46EF92529BAF800462A6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46EF82529BAF800462A6D /* SceneDelegate.swift */; };
-		85D46EFB2529BAF800462A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46EFA2529BAF800462A6D /* ViewController.swift */; };
+		85D46EFB2529BAF800462A6D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46EFA2529BAF800462A6D /* ListViewController.swift */; };
 		85D46EFE2529BAF800462A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D46EFC2529BAF800462A6D /* Main.storyboard */; };
 		85D46F002529BAFE00462A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D46EFF2529BAFE00462A6D /* Assets.xcassets */; };
 		85D46F032529BAFE00462A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D46F012529BAFE00462A6D /* LaunchScreen.storyboard */; };
 		85D46F0E2529BAFE00462A6D /* DemoMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46F0D2529BAFE00462A6D /* DemoMVVMTests.swift */; };
+		85D46F192529BB5100462A6D /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46F182529BB5100462A6D /* UserService.swift */; };
+		85D46F1B2529BE9900462A6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46F1A2529BE9900462A6D /* User.swift */; };
+		85D46F1D2529BF5B00462A6D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46F1C2529BF5B00462A6D /* UserViewModel.swift */; };
+		85D46F202529DE7D00462A6D /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46F1E2529C32000462A6D /* UserListTableViewCell.swift */; };
+		85D46F22252A172500462A6D /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46F21252A172500462A6D /* Dynamic.swift */; };
+		85D46F24252A1C0200462A6D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46F23252A1C0200462A6D /* DetailViewController.swift */; };
+		85D46F27252A344000462A6D /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D46F26252A344000462A6D /* MockUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +37,7 @@
 		85D46EF32529BAF800462A6D /* DemoMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D46EF62529BAF800462A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85D46EF82529BAF800462A6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85D46EFA2529BAF800462A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85D46EFA2529BAF800462A6D /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		85D46EFD2529BAF800462A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85D46EFF2529BAFE00462A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85D46F022529BAFE00462A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +45,13 @@
 		85D46F092529BAFE00462A6D /* DemoMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D46F0D2529BAFE00462A6D /* DemoMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMVVMTests.swift; sourceTree = "<group>"; };
 		85D46F0F2529BAFE00462A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D46F182529BB5100462A6D /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		85D46F1A2529BE9900462A6D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		85D46F1C2529BF5B00462A6D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		85D46F1E2529C32000462A6D /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		85D46F21252A172500462A6D /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		85D46F23252A1C0200462A6D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		85D46F26252A344000462A6D /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +93,15 @@
 		85D46EF52529BAF800462A6D /* DemoMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				85D46F25252A1C0A00462A6D /* Views */,
 				85D46EF62529BAF800462A6D /* AppDelegate.swift */,
 				85D46EF82529BAF800462A6D /* SceneDelegate.swift */,
-				85D46EFA2529BAF800462A6D /* ViewController.swift */,
-				85D46EFC2529BAF800462A6D /* Main.storyboard */,
 				85D46EFF2529BAFE00462A6D /* Assets.xcassets */,
-				85D46F012529BAFE00462A6D /* LaunchScreen.storyboard */,
 				85D46F042529BAFE00462A6D /* Info.plist */,
+				85D46F182529BB5100462A6D /* UserService.swift */,
+				85D46F1A2529BE9900462A6D /* User.swift */,
+				85D46F1C2529BF5B00462A6D /* UserViewModel.swift */,
+				85D46F21252A172500462A6D /* Dynamic.swift */,
 			);
 			path = DemoMVVM;
 			sourceTree = "<group>";
@@ -94,9 +110,22 @@
 			isa = PBXGroup;
 			children = (
 				85D46F0D2529BAFE00462A6D /* DemoMVVMTests.swift */,
+				85D46F26252A344000462A6D /* MockUser.swift */,
 				85D46F0F2529BAFE00462A6D /* Info.plist */,
 			);
 			path = DemoMVVMTests;
+			sourceTree = "<group>";
+		};
+		85D46F25252A1C0A00462A6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85D46EFC2529BAF800462A6D /* Main.storyboard */,
+				85D46F012529BAFE00462A6D /* LaunchScreen.storyboard */,
+				85D46EFA2529BAF800462A6D /* ListViewController.swift */,
+				85D46F1E2529C32000462A6D /* UserListTableViewCell.swift */,
+				85D46F23252A1C0200462A6D /* DetailViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D46EFB2529BAF800462A6D /* ViewController.swift in Sources */,
+				85D46F24252A1C0200462A6D /* DetailViewController.swift in Sources */,
+				85D46EFB2529BAF800462A6D /* ListViewController.swift in Sources */,
+				85D46F1D2529BF5B00462A6D /* UserViewModel.swift in Sources */,
+				85D46F192529BB5100462A6D /* UserService.swift in Sources */,
 				85D46EF72529BAF800462A6D /* AppDelegate.swift in Sources */,
+				85D46F1B2529BE9900462A6D /* User.swift in Sources */,
+				85D46F22252A172500462A6D /* Dynamic.swift in Sources */,
 				85D46EF92529BAF800462A6D /* SceneDelegate.swift in Sources */,
+				85D46F202529DE7D00462A6D /* UserListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D46F27252A344000462A6D /* MockUser.swift in Sources */,
 				85D46F0E2529BAFE00462A6D /* DemoMVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

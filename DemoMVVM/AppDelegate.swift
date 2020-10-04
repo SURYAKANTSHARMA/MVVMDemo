@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DemoMVVM
 //
-//  Created by tokopedia on 04/10/20.
+//  Created by Git on 04/10/20.
 //  Copyright © 2020 Github. All rights reserved.
 //
 
